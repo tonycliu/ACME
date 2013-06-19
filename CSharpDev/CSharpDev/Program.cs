@@ -14,6 +14,7 @@ namespace CSharpDev
             Console.WriteLine("Hello GitHub!");
 			Console.WriteLine("Enter an option to run:");
 			Console.WriteLine("1. Operator Overload.");
+			Console.WriteLine("2. Operator Overload 2, coversion.");
 			Console.WriteLine();
 			Console.Write("====>	");
 			string key = Console.ReadLine();
@@ -24,6 +25,9 @@ namespace CSharpDev
 			{
 				case "1":
 					OverloadOperator.Run();
+					break;
+				case "2":
+					OverloadOperator2.Run();
 					break;
 				default:
 					Console.WriteLine("Invalid option.");
