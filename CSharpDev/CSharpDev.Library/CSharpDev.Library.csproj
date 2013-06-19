@@ -39,8 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter1\AnonymousFunction.cs" />
     <Compile Include="Chapter1\OverloadOperator.cs" />
     <Compile Include="Chapter1\OverloadOperator2.cs" />
+    <Compile Include="Core\LibraryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

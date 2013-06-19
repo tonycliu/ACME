@@ -15,6 +15,7 @@ namespace CSharpDev
 			Console.WriteLine("Enter an option to run:");
 			Console.WriteLine("1. Operator Overload.");
 			Console.WriteLine("2. Operator Overload 2, coversion.");
+			Console.WriteLine("3. Anonymous Function.");
 			Console.WriteLine();
 			Console.Write("====>	");
 			string key = Console.ReadLine();
@@ -28,6 +29,9 @@ namespace CSharpDev
 					break;
 				case "2":
 					OverloadOperator2.Run();
+					break;
+				case "3":
+					(new AnonymousFunction()).Run();
 					break;
 				default:
 					Console.WriteLine("Invalid option.");
