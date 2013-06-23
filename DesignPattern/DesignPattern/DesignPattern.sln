@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Client", "DesignPattern.Client\DesignPattern.Client.csproj", "{018502CB-30B3-49D2-8CD1-23556E9F468F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Pattern", "DesignPattern.Pattern\DesignPattern.Pattern.csproj", "{81D79DCB-50C8-446D-B1DA-F8CDDA94B2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Model", "DesignPattern.Model\DesignPattern.Model.csproj", "{DE3810C8-F8DE-4004-9822-4D8844CBBE34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018502CB-30B3-49D2-8CD1-23556E9F468F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018502CB-30B3-49D2-8CD1-23556E9F468F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018502CB-30B3-49D2-8CD1-23556E9F468F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018502CB-30B3-49D2-8CD1-23556E9F468F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D79DCB-50C8-446D-B1DA-F8CDDA94B2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D79DCB-50C8-446D-B1DA-F8CDDA94B2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D79DCB-50C8-446D-B1DA-F8CDDA94B2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D79DCB-50C8-446D-B1DA-F8CDDA94B2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3810C8-F8DE-4004-9822-4D8844CBBE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3810C8-F8DE-4004-9822-4D8844CBBE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3810C8-F8DE-4004-9822-4D8844CBBE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3810C8-F8DE-4004-9822-4D8844CBBE34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
