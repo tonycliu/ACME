@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.Pattern
+namespace DesignPattern.Model
 {
-    public class Class1
+    public interface IGlassware
     {
+        string GlasswareParts { get; }
     }
 }

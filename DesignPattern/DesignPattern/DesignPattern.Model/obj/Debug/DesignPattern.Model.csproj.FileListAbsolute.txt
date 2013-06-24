@@ -1,4 +1,0 @@
-C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\bin\Debug\DesignPattern.Model.dll
-C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\bin\Debug\DesignPattern.Model.pdb
-C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\obj\Debug\DesignPattern.Model.dll
-C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\obj\Debug\DesignPattern.Model.pdb

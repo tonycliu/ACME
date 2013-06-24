@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Model
 {
-    public class Class1
+    public class CarBody : IBody
     {
+        public string BodyParts
+        {
+            get { return "Body shell parts for a car."; }
+        }
     }
 }

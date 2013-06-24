@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryDriver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -48,6 +49,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DesignPattern.Model\DesignPattern.Model.csproj">
+      <Project>{de3810c8-f8de-4004-9822-4d8844cbbe34}</Project>
+      <Name>DesignPattern.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPattern.Pattern\DesignPattern.Pattern.csproj">
       <Project>{81d79dcb-50c8-446d-b1da-f8cdda94b2c9}</Project>
       <Name>DesignPattern.Pattern</Name>

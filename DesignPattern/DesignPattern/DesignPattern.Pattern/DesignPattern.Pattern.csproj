@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AbstractFactory\AbstractVehicleFactory.cs" />
+    <Compile Include="AbstractFactory\CarFactory.cs" />
+    <Compile Include="AbstractFactory\VanFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

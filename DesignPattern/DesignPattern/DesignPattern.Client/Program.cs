@@ -6,10 +6,29 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Client
 {
-	class Program
+	public class Program
 	{
-		static void Main(string[] args)
+		public static void Main(string[] args)
 		{
+            Console.WriteLine("Please select one option to run:");
+            Console.WriteLine("1. Abstract Factory Pattern");
+
+            Console.Write("---------> ");
+            string option = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine("========================================");
+            switch(option)
+            {
+                case "1":
+                    AbstractFactoryDriver.Run();
+                    break;
+                default:
+                    Console.WriteLine("Invalid type");
+                    break;
+            }
+            Console.WriteLine();
+            Console.WriteLine("========================================");
 		}
 	}
 }
