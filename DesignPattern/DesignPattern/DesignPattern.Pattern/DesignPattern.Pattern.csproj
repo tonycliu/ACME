@@ -43,7 +43,11 @@
     <Compile Include="AbstractFactory\CarFactory.cs" />
     <Compile Include="AbstractFactory\VanFactory.cs" />
     <Compile Include="Builder\CarBuilder.cs" />
+    <Compile Include="Builder\CarDirector.cs" />
+    <Compile Include="Builder\VanBuilder.cs" />
+    <Compile Include="Builder\VanDirector.cs" />
     <Compile Include="Builder\VehicleBuilder.cs" />
+    <Compile Include="Builder\VehicleDirector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

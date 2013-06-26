@@ -18,27 +18,27 @@ namespace DesignPattern.Pattern.Builder
 
         public override void BuildBody()
         {
-            base.BuildBody();
+            Console.WriteLine("building car body");
         }
 
         public override void BuildBoot()
         {
-            base.BuildBoot();
+            Console.WriteLine("building car boot");
         }
 
         public override void BuildChassis()
         {
-            base.BuildChassis();
+            Console.WriteLine("building car chassis");
         }
 
         public override void BuildPassengerArea()
         {
-            base.BuildPassengerArea();
+            Console.WriteLine("building car passenger area");
         }
 
         public override void BuildWindows()
         {
-            base.BuildWindows();
+            Console.WriteLine("building car windows");
         }
 
         public override IVehicle Vehicle
