@@ -39,15 +39,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractCar.cs" />
+    <Compile Include="AbstractEngine.cs" />
+    <Compile Include="AbstractVan.cs" />
+    <Compile Include="AbstractVehicle.cs" />
+    <Compile Include="BoxVan.cs" />
     <Compile Include="CarBody.cs" />
     <Compile Include="CarChassis.cs" />
     <Compile Include="CarGlassware.cs" />
+    <Compile Include="Coupe.cs" />
     <Compile Include="IBody.cs" />
     <Compile Include="IChassis.cs" />
     <Compile Include="IEngine.cs" />
     <Compile Include="IGlassware.cs" />
     <Compile Include="IVehicle.cs" />
+    <Compile Include="Pickup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saloon.cs" />
+    <Compile Include="Sport.cs" />
+    <Compile Include="StandardEngine.cs" />
+    <Compile Include="TurboEngine.cs" />
     <Compile Include="VanBody.cs" />
     <Compile Include="VanChassis.cs" />
     <Compile Include="VanGlassware.cs" />
