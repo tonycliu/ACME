@@ -42,6 +42,7 @@
     <Compile Include="AbstractFactory\AbstractVehicleFactory.cs" />
     <Compile Include="AbstractFactory\CarFactory.cs" />
     <Compile Include="AbstractFactory\VanFactory.cs" />
+    <Compile Include="Builder\CarBuilder.cs" />
     <Compile Include="Builder\VehicleBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
