@@ -1,0 +1,5 @@
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\bin\Debug\DesignPattern.Model.dll
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\bin\Debug\DesignPattern.Model.pdb
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\obj\Debug\DesignPattern.Model.csprojResolveAssemblyReference.cache
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\obj\Debug\DesignPattern.Model.dll
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Model\obj\Debug\DesignPattern.Model.pdb

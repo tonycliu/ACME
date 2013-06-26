@@ -44,11 +44,14 @@
     <Compile Include="CarGlassware.cs" />
     <Compile Include="IBody.cs" />
     <Compile Include="IChassis.cs" />
+    <Compile Include="IEngine.cs" />
     <Compile Include="IGlassware.cs" />
+    <Compile Include="IVehicle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VanBody.cs" />
     <Compile Include="VanChassis.cs" />
     <Compile Include="VanGlassware.cs" />
+    <Compile Include="VehicleColor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

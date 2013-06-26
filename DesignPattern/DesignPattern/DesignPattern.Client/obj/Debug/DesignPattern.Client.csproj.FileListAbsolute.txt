@@ -1,0 +1,10 @@
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\bin\Debug\DesignPattern.Client.exe.config
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\bin\Debug\DesignPattern.Client.exe
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\bin\Debug\DesignPattern.Client.pdb
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\bin\Debug\DesignPattern.Model.dll
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\bin\Debug\DesignPattern.Pattern.dll
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\bin\Debug\DesignPattern.Model.pdb
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\bin\Debug\DesignPattern.Pattern.pdb
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\obj\Debug\DesignPattern.Client.csprojResolveAssemblyReference.cache
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\obj\Debug\DesignPattern.Client.exe
+C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Client\obj\Debug\DesignPattern.Client.pdb
