@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPattern.Model
 {
-    public interface IVehicle
+    public interface IVehicle : ICloneable
     {
         IEngine Engine { get; }
         VehicleColor Color { get; }

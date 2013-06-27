@@ -42,8 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryDriver.cs" />
+    <Compile Include="FactoryDriver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypeDriver.cs" />
+    <Compile Include="SingletonDriver.cs" />
     <Compile Include="VehicleBuilderDriver.cs" />
   </ItemGroup>
   <ItemGroup>

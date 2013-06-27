@@ -13,6 +13,9 @@ namespace DesignPattern.Client
             Console.WriteLine("Please select one option to run:");
             Console.WriteLine("1. Abstract Factory Pattern");
             Console.WriteLine("2. Builder Pattern");
+			Console.WriteLine("3. Factory Pattern");
+			Console.WriteLine("4. Prototype Pattern");
+			Console.WriteLine("5. Singleton Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -27,6 +30,15 @@ namespace DesignPattern.Client
                 case "2":
                     VehicleBuilderDriver.Run();
                     break;
+				case "3":
+                    FactoryDriver.Run();
+					break;
+				case "4":
+					PrototypeDriver.Run();
+					break;
+				case "5":
+					SingletonDriver.Run();
+					break;
                 default:
                     Console.WriteLine("Invalid type");
                     break;

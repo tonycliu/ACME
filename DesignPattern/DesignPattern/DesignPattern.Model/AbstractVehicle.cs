@@ -41,5 +41,14 @@ namespace DesignPattern.Model
         {
             return this.GetType().Name + " (" + engine + ", " + color + ")";
         }
-    }
+
+		#region ICloneable Members
+
+		public virtual object Clone()
+		{
+			return this.MemberwiseClone();
+		}
+
+		#endregion
+	}
 }

@@ -7,3 +7,12 @@ C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\bin\Debug\Desi
 C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\obj\Debug\DesignPattern.Test.csprojResolveAssemblyReference.cache
 C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\obj\Debug\DesignPattern.Test.dll
 C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\obj\Debug\DesignPattern.Test.pdb
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\bin\Debug\DesignPattern.Test.dll
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\bin\Debug\DesignPattern.Test.pdb
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\bin\Debug\DesignPattern.Model.dll
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\bin\Debug\DesignPattern.Pattern.dll
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\bin\Debug\DesignPattern.Model.pdb
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\bin\Debug\DesignPattern.Pattern.pdb
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\obj\Debug\DesignPattern.Test.csprojResolveAssemblyReference.cache
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\obj\Debug\DesignPattern.Test.dll
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Test\obj\Debug\DesignPattern.Test.pdb

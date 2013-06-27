@@ -5,3 +5,10 @@ C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\bin\Debug\D
 C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\obj\Debug\DesignPattern.Pattern.csprojResolveAssemblyReference.cache
 C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\obj\Debug\DesignPattern.Pattern.dll
 C:\Web\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\obj\Debug\DesignPattern.Pattern.pdb
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\obj\Debug\DesignPattern.Pattern.csprojResolveAssemblyReference.cache
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\obj\Debug\DesignPattern.Pattern.dll
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\obj\Debug\DesignPattern.Pattern.pdb
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\bin\Debug\DesignPattern.Pattern.dll
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\bin\Debug\DesignPattern.Pattern.pdb
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\bin\Debug\DesignPattern.Model.dll
+C:\Sites\GitHub\ACME\DesignPattern\DesignPattern\DesignPattern.Pattern\bin\Debug\DesignPattern.Model.pdb
