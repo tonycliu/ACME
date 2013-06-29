@@ -42,6 +42,10 @@
     <Compile Include="AbstractFactory\AbstractVehicleFactory.cs" />
     <Compile Include="AbstractFactory\CarFactory.cs" />
     <Compile Include="AbstractFactory\VanFactory.cs" />
+    <Compile Include="Adapter\SuperGreenEngineAdapter.cs" />
+    <Compile Include="Bridge\AbstractDriverControl.cs" />
+    <Compile Include="Bridge\SportDriverControl.cs" />
+    <Compile Include="Bridge\StandardDriverControl.cs" />
     <Compile Include="Builder\CarBuilder.cs" />
     <Compile Include="Builder\CarDirector.cs" />
     <Compile Include="Builder\VanBuilder.cs" />

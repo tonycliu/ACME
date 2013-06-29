@@ -47,7 +47,7 @@ namespace DesignPattern.Pattern.Prototype
 		{
 			if (boxVan == null)
 			{
-				sport = new BoxVan(new StandardEngine(1300));
+                boxVan = new BoxVan(new StandardEngine(1300));
 			}
 
 			return (IVehicle)boxVan.Clone();

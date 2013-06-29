@@ -58,6 +58,7 @@
     <Compile Include="Saloon.cs" />
     <Compile Include="Sport.cs" />
     <Compile Include="StandardEngine.cs" />
+    <Compile Include="SuperGreenEngine.cs" />
     <Compile Include="TurboEngine.cs" />
     <Compile Include="VanBody.cs" />
     <Compile Include="VanChassis.cs" />

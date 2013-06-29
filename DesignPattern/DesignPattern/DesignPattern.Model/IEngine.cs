@@ -9,5 +9,10 @@ namespace DesignPattern.Model
     {
         int Size { get; }
         bool Turbo { get; }
+
+        void Start();
+        void Stop();
+        void IncreasePower();
+        void DescresePower();
     }
 }

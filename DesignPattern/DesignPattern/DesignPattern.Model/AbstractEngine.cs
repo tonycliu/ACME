@@ -10,6 +10,8 @@ namespace DesignPattern.Model
     {
         private int size;
         private bool turbo;
+        private bool running;
+        private int power;
 
         public AbstractEngine(int size, bool turbo)
         {
@@ -29,7 +31,31 @@ namespace DesignPattern.Model
 
         public override string ToString()
         {
-            return this.GetType().Name + " (" + this.size + ")";
+            return this.GetType().Name + " (" + this.size + ") [Is On: " + this.running + ", Speed: " + this.power + "]";
+        }
+
+
+        public void Start()
+        {
+            this.running = true;
+        }
+
+        public void Stop()
+        {
+            this.power = 0;
+            this.running = false;
+        }
+
+        public void IncreasePower()
+        {
+            if (running && power < 10)
+                power++;
+        }
+
+        public void DescresePower()
+        {
+            if (running && power > 0)
+                power--;
         }
     }
 }
