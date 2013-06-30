@@ -18,6 +18,7 @@ namespace DesignPattern.Client
 			Console.WriteLine("5. Singleton Pattern");
             Console.WriteLine("6. Adapter Pattern");
             Console.WriteLine("7. Bridge Pattern");
+            Console.WriteLine("8. Composition Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -46,6 +47,9 @@ namespace DesignPattern.Client
                     break;
                 case "7":
                     BridgeDriver.Run();
+                    break;
+                case "8":
+                    CompositionDriver.Run();
                     break;
                 default:
                     Console.WriteLine("Invalid type");
