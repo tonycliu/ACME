@@ -10,5 +10,10 @@ namespace DesignPattern.Model
     {
         public BoxVan(IEngine engine, VehicleColor color) : base(engine, color) { }
         public BoxVan(IEngine engine) : base(engine, VehicleColor.Unpainted) { }
+
+		public override int Price
+		{
+			get { return 10000; }
+		}
     }
 }

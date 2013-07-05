@@ -10,5 +10,10 @@ namespace DesignPattern.Model
     {
         public Saloon(IEngine engine, VehicleColor color) : base(engine, color) { }
         public Saloon(IEngine engine) : base(engine, VehicleColor.Unpainted) { }
+
+		public override int Price
+		{
+			get { return 6000; }
+		}
     }
 }

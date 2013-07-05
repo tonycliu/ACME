@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Model
 {
-    public class AbstractCar : AbstractVehicle
+    public abstract class AbstractCar : AbstractVehicle
     {
         public AbstractCar(IEngine engine, VehicleColor color) : base(engine, color) { }
         public AbstractCar(IEngine engine) : base(engine, VehicleColor.Unpainted) { }

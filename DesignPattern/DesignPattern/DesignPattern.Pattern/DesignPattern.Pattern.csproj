@@ -52,6 +52,13 @@
     <Compile Include="Builder\VanDirector.cs" />
     <Compile Include="Builder\VehicleBuilder.cs" />
     <Compile Include="Builder\VehicleDirector.cs" />
+    <Compile Include="Decorator\AbstractVehicleOption.cs" />
+    <Compile Include="Decorator\AirconditionedVehicle.cs" />
+    <Compile Include="Decorator\AollyWheeledVehicle.cs" />
+    <Compile Include="Decorator\LeatherSeatedVehicle.cs" />
+    <Compile Include="Decorator\MetallicPaintedVehicle.cs" />
+    <Compile Include="Decorator\SatNavVehicle.cs" />
+    <Compile Include="Facade\VehicleFacade.cs" />
     <Compile Include="Factory\CarFactory.cs" />
     <Compile Include="Factory\VanFactory.cs" />
     <Compile Include="Factory\VehicleFactory.cs" />

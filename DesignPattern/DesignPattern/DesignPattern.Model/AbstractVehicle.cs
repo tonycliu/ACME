@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Model
 {
-    public class AbstractVehicle : IVehicle
+    public abstract class AbstractVehicle : IVehicle
     {
         private IEngine engine;
         private VehicleColor color;
@@ -32,6 +32,8 @@ namespace DesignPattern.Model
             get { return color; }
         }
 
+		public abstract int Price { get; }
+
         public void Paint(VehicleColor color)
         {
             this.color = color;
@@ -39,7 +41,7 @@ namespace DesignPattern.Model
 
         public override string ToString()
         {
-            return this.GetType().Name + " (" + engine + ", " + color + ")";
+            return this.GetType().Name + " (" + engine + ", " + color + ", price: " + this.Price + ")";
         }
 
 		#region ICloneable Members
@@ -47,6 +49,31 @@ namespace DesignPattern.Model
 		public virtual object Clone()
 		{
 			return this.MemberwiseClone();
+		}
+
+		#endregion
+
+		#region IVehicle Members
+
+
+		public virtual void CleanInterior()
+		{
+			Console.WriteLine("CleanInterior");
+		}
+
+		public virtual void CleanExteriorBody()
+		{
+			Console.WriteLine("CleanExteriorBody");
+		}
+
+		public virtual void PolishWindows()
+		{
+			Console.WriteLine("PolishWindows");
+		}
+
+		public virtual void TakeForTestDriver()
+		{
+			Console.WriteLine("TakeForTestDriver");
 		}
 
 		#endregion

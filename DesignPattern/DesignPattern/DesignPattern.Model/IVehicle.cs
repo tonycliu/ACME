@@ -10,5 +10,12 @@ namespace DesignPattern.Model
         IEngine Engine { get; }
         VehicleColor Color { get; }
         void Paint(VehicleColor color);
+
+		int Price { get; }
+
+		void CleanInterior();
+		void CleanExteriorBody();
+		void PolishWindows();
+		void TakeForTestDriver();
     }
 }

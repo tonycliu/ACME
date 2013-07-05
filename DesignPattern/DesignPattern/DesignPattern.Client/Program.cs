@@ -19,6 +19,8 @@ namespace DesignPattern.Client
             Console.WriteLine("6. Adapter Pattern");
             Console.WriteLine("7. Bridge Pattern");
             Console.WriteLine("8. Composition Pattern");
+			Console.WriteLine("9. Decorator Pattern");
+			Console.WriteLine("10. Facade Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -51,6 +53,12 @@ namespace DesignPattern.Client
                 case "8":
                     CompositionDriver.Run();
                     break;
+				case "9":
+					DecoratorDriver.Run();
+					break;
+				case "10":
+					FacadeDriver.Run();
+					break;
                 default:
                     Console.WriteLine("Invalid type");
                     break;
