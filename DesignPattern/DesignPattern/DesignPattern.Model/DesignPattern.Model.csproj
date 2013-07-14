@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractCar.cs" />
+    <Compile Include="AbstractEmailHandler.cs" />
     <Compile Include="AbstractEngine.cs" />
     <Compile Include="AbstractVan.cs" />
     <Compile Include="AbstractVehicle.cs" />
@@ -51,18 +52,24 @@
     <Compile Include="Coupe.cs" />
     <Compile Include="Documentation.cs" />
     <Compile Include="EngineDiagnoseTool.cs" />
+    <Compile Include="GeneralEmailHandler.cs" />
     <Compile Include="IBody.cs" />
     <Compile Include="IChassis.cs" />
     <Compile Include="IDiagnosticTool.cs" />
+    <Compile Include="IEmailHandler.cs" />
     <Compile Include="IEngine.cs" />
     <Compile Include="IGlassware.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="IVehicle.cs" />
+    <Compile Include="ManagerEmailHandler.cs" />
     <Compile Include="Part.cs" />
     <Compile Include="Pickup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.cs" />
+    <Compile Include="SalesEmailHandler.cs" />
     <Compile Include="Saloon.cs" />
+    <Compile Include="ServiceEmailHandler.cs" />
+    <Compile Include="SpamEmailHandler.cs" />
     <Compile Include="Sport.cs" />
     <Compile Include="StandardEngine.cs" />
     <Compile Include="SuperGreenEngine.cs" />

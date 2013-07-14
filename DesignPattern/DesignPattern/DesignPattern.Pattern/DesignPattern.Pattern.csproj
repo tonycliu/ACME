@@ -52,6 +52,7 @@
     <Compile Include="Builder\VanDirector.cs" />
     <Compile Include="Builder\VehicleBuilder.cs" />
     <Compile Include="Builder\VehicleDirector.cs" />
+    <Compile Include="ChainOfResponsibility\ChainsOfResponsibility.cs" />
     <Compile Include="Decorator\AbstractVehicleOption.cs" />
     <Compile Include="Decorator\AirconditionedVehicle.cs" />
     <Compile Include="Decorator\AollyWheeledVehicle.cs" />
