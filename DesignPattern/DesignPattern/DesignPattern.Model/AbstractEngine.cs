@@ -57,5 +57,11 @@ namespace DesignPattern.Model
             if (running && power > 0)
                 power--;
         }
+
+
+        public void Diagnose(IDiagnosticTool tool)
+        {
+            tool.RunDiagnosis(this);
+        }
     }
 }

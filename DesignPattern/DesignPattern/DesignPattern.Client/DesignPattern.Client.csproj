@@ -48,9 +48,11 @@
     <Compile Include="DecoratorDriver.cs" />
     <Compile Include="FacadeDriver.cs" />
     <Compile Include="FactoryDriver.cs" />
+    <Compile Include="FlyweightDriver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PrototypeDriver.cs" />
+    <Compile Include="ProxyDriver.cs" />
     <Compile Include="SingletonDriver.cs" />
     <Compile Include="VehicleBuilderDriver.cs" />
   </ItemGroup>

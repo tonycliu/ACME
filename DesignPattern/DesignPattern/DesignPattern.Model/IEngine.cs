@@ -14,5 +14,7 @@ namespace DesignPattern.Model
         void Stop();
         void IncreasePower();
         void DescresePower();
+
+        void Diagnose(IDiagnosticTool tool);
     }
 }

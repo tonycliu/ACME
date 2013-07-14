@@ -50,8 +50,10 @@
     <Compile Include="CarGlassware.cs" />
     <Compile Include="Coupe.cs" />
     <Compile Include="Documentation.cs" />
+    <Compile Include="EngineDiagnoseTool.cs" />
     <Compile Include="IBody.cs" />
     <Compile Include="IChassis.cs" />
+    <Compile Include="IDiagnosticTool.cs" />
     <Compile Include="IEngine.cs" />
     <Compile Include="IGlassware.cs" />
     <Compile Include="Item.cs" />

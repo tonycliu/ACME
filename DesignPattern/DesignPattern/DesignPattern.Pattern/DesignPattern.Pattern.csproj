@@ -58,10 +58,12 @@
     <Compile Include="Decorator\LeatherSeatedVehicle.cs" />
     <Compile Include="Decorator\MetallicPaintedVehicle.cs" />
     <Compile Include="Decorator\SatNavVehicle.cs" />
+    <Compile Include="EngineProxy.cs" />
     <Compile Include="Facade\VehicleFacade.cs" />
     <Compile Include="Factory\CarFactory.cs" />
     <Compile Include="Factory\VanFactory.cs" />
     <Compile Include="Factory\VehicleFactory.cs" />
+    <Compile Include="Flyweight\EngineFlyweightFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\VehicleManagerLazy.cs" />
     <Compile Include="Singleton\SerialNumberGenerator.cs" />

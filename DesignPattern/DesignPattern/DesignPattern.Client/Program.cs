@@ -21,6 +21,8 @@ namespace DesignPattern.Client
             Console.WriteLine("8. Composition Pattern");
 			Console.WriteLine("9. Decorator Pattern");
 			Console.WriteLine("10. Facade Pattern");
+            Console.WriteLine("11. Flyweight Pattern");
+            Console.WriteLine("12. Proxy Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -59,6 +61,12 @@ namespace DesignPattern.Client
 				case "10":
 					FacadeDriver.Run();
 					break;
+                case "11":
+                    FlyweightDriver.Run();
+                    break;
+                case "12":
+                    ProxyDriver.Run();
+                    break;
                 default:
                     Console.WriteLine("Invalid type");
                     break;
