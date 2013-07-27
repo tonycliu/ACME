@@ -24,6 +24,7 @@ namespace DesignPattern.Client
             Console.WriteLine("11. Flyweight Pattern");
             Console.WriteLine("12. Proxy Pattern");
             Console.WriteLine("13. Chains of Responsibility Pattern");
+            Console.WriteLine("14. Command Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -70,6 +71,9 @@ namespace DesignPattern.Client
                     break;
                 case "13":
                     ChainsOfResponsibilityDriver.Run();
+                    break;
+                case "14":
+                    CommandDriver.Run();
                     break;
                 default:
                     Console.WriteLine("Invalid type");

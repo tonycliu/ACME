@@ -53,6 +53,12 @@
     <Compile Include="Builder\VehicleBuilder.cs" />
     <Compile Include="Builder\VehicleDirector.cs" />
     <Compile Include="ChainOfResponsibility\ChainsOfResponsibility.cs" />
+    <Compile Include="Command\IVoiceCommand.cs" />
+    <Compile Include="Command\SpeechRecognizer.cs" />
+    <Compile Include="Command\VolumeDownCommand.cs" />
+    <Compile Include="Command\VolumeUpCommand.cs" />
+    <Compile Include="Command\WindowDownCommand.cs" />
+    <Compile Include="Command\WindowUpCommand.cs" />
     <Compile Include="Decorator\AbstractVehicleOption.cs" />
     <Compile Include="Decorator\AirconditionedVehicle.cs" />
     <Compile Include="Decorator\AollyWheeledVehicle.cs" />

@@ -45,6 +45,7 @@
     <Compile Include="AdapterDriver.cs" />
     <Compile Include="BridgeDriver.cs" />
     <Compile Include="ChainsOfResponsibilityDriver.cs" />
+    <Compile Include="CommandDriver.cs" />
     <Compile Include="CompositionDriver.cs" />
     <Compile Include="DecoratorDriver.cs" />
     <Compile Include="FacadeDriver.cs" />
