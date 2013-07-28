@@ -49,6 +49,7 @@
     <Compile Include="CarBody.cs" />
     <Compile Include="CarChassis.cs" />
     <Compile Include="CarGlassware.cs" />
+    <Compile Include="City.cs" />
     <Compile Include="Coupe.cs" />
     <Compile Include="Documentation.cs" />
     <Compile Include="ElectricWindow.cs" />

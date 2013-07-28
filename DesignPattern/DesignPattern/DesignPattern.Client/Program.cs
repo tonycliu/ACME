@@ -25,6 +25,7 @@ namespace DesignPattern.Client
             Console.WriteLine("12. Proxy Pattern");
             Console.WriteLine("13. Chains of Responsibility Pattern");
             Console.WriteLine("14. Command Pattern");
+            Console.WriteLine("15. Interpreter Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -74,6 +75,9 @@ namespace DesignPattern.Client
                     break;
                 case "14":
                     CommandDriver.Run();
+                    break;
+                case "15":
+                    InterpreterDriver.Run();
                     break;
                 default:
                     Console.WriteLine("Invalid type");

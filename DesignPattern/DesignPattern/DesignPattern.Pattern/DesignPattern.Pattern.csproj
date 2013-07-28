@@ -71,6 +71,13 @@
     <Compile Include="Factory\VanFactory.cs" />
     <Compile Include="Factory\VehicleFactory.cs" />
     <Compile Include="Flyweight\EngineFlyweightFactory.cs" />
+    <Compile Include="Interpreter\CityExpression.cs" />
+    <Compile Include="Interpreter\DirectionalEvaluator.cs" />
+    <Compile Include="Interpreter\IExpression.cs" />
+    <Compile Include="Interpreter\MostEasterlyExpression.cs" />
+    <Compile Include="Interpreter\MostNortherlyExpression.cs" />
+    <Compile Include="Interpreter\MostSoutherlyExpression.cs" />
+    <Compile Include="Interpreter\MostWesterlyExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\VehicleManagerLazy.cs" />
     <Compile Include="Singleton\SerialNumberGenerator.cs" />
