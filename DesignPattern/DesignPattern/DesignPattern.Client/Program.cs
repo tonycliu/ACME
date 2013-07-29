@@ -26,6 +26,7 @@ namespace DesignPattern.Client
             Console.WriteLine("13. Chains of Responsibility Pattern");
             Console.WriteLine("14. Command Pattern");
             Console.WriteLine("15. Interpreter Pattern");
+            Console.WriteLine("16. Iterator Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -78,6 +79,9 @@ namespace DesignPattern.Client
                     break;
                 case "15":
                     InterpreterDriver.Run();
+                    break;
+                case "16":
+                    IteratorDriver.Run();
                     break;
                 default:
                     Console.WriteLine("Invalid type");
