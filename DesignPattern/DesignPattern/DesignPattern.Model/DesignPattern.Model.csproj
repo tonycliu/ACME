@@ -44,8 +44,10 @@
     <Compile Include="AbstractEngine.cs" />
     <Compile Include="AbstractVan.cs" />
     <Compile Include="AbstractVehicle.cs" />
+    <Compile Include="Accelerator.cs" />
     <Compile Include="Assembly.cs" />
     <Compile Include="BoxVan.cs" />
+    <Compile Include="Brake.cs" />
     <Compile Include="CarBody.cs" />
     <Compile Include="CarChassis.cs" />
     <Compile Include="CarGlassware.cs" />
@@ -54,6 +56,9 @@
     <Compile Include="Documentation.cs" />
     <Compile Include="ElectricWindow.cs" />
     <Compile Include="EngineDiagnoseTool.cs" />
+    <Compile Include="EngineManagementSystem.cs" />
+    <Compile Include="Gear.cs" />
+    <Compile Include="Gearbox.cs" />
     <Compile Include="GeneralEmailHandler.cs" />
     <Compile Include="IBody.cs" />
     <Compile Include="IChassis.cs" />
@@ -61,6 +66,7 @@
     <Compile Include="IEmailHandler.cs" />
     <Compile Include="IEngine.cs" />
     <Compile Include="IGlassware.cs" />
+    <Compile Include="Ignition.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="IVehicle.cs" />
     <Compile Include="ManagerEmailHandler.cs" />
