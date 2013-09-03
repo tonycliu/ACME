@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesignPattern.Model
 {
-    public interface IEngine
+    public interface IEngine : IVisitable
     {
         int Size { get; }
         bool Turbo { get; }

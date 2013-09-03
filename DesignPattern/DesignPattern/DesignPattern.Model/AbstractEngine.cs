@@ -13,10 +13,18 @@ namespace DesignPattern.Model
         private bool running;
         private int power;
 
+        private Camshaft camshaft;
+        private Piston piston;
+        private SparkPlug[] sparkPlugs;
+
         public AbstractEngine(int size, bool turbo)
         {
             this.size = size;
             this.turbo = turbo;
+
+            camshaft = new Camshaft();
+            piston = new Piston();
+            sparkPlugs = new[] { new SparkPlug(), new SparkPlug(), new SparkPlug(), new SparkPlug() };
         }
 
         public int Size
@@ -62,6 +70,17 @@ namespace DesignPattern.Model
         public void Diagnose(IDiagnosticTool tool)
         {
             tool.RunDiagnosis(this);
+        }
+
+        public void AcceptEngineVisitor(IEngineVisitor visitor)
+        {
+            camshaft.AcceptEngineVisitor(visitor);
+            piston.AcceptEngineVisitor(visitor);
+            foreach (SparkPlug sp in sparkPlugs)
+            {
+                sp.AcceptEngineVisitor(visitor);
+            }
+            visitor.Visit(this);
         }
     }
 }

@@ -72,5 +72,10 @@ namespace DesignPattern.Pattern
         {
             return engine.ToString();
         }
+
+        public void AcceptEngineVisitor(IEngineVisitor visitor)
+        {
+            visitor.Visit(this);
+        }
     }
 }

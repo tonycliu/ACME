@@ -27,6 +27,12 @@ namespace DesignPattern.Client
             Console.WriteLine("14. Command Pattern");
             Console.WriteLine("15. Interpreter Pattern");
             Console.WriteLine("16. Iterator Pattern");
+            Console.WriteLine("17. Memento Pattern");
+            Console.WriteLine("18. Observer Pattern");
+            Console.WriteLine("19. State Pattern");
+            Console.WriteLine("20. Strategy Pattern");
+            Console.WriteLine("21. Template Method Pattern");
+            Console.WriteLine("22. Visitor Pattern");
 
             Console.Write("---------> ");
             string option = Console.ReadLine();
@@ -82,6 +88,24 @@ namespace DesignPattern.Client
                     break;
                 case "16":
                     IteratorDriver.Run();
+                    break;
+                case "17":
+                    MementoDriver.Run();
+                    break;
+                case "18":
+                    ObserverDriver.Run();
+                    break;
+                case "19":
+                    StateDriver.Run();
+                    break;
+                case "20":
+                    StrategyDriver.Run();
+                    break;
+                case "21":
+                    TemplateMethodDriver.Run();
+                    break;
+                case "22":
+                    VisitorDriver.Run();
                     break;
                 default:
                     Console.WriteLine("Invalid type");

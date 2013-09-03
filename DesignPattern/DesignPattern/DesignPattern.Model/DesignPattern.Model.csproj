@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractBookletPrinter.cs" />
     <Compile Include="AbstractCar.cs" />
     <Compile Include="AbstractEmailHandler.cs" />
     <Compile Include="AbstractEngine.cs" />
@@ -46,13 +47,17 @@
     <Compile Include="AbstractVehicle.cs" />
     <Compile Include="Accelerator.cs" />
     <Compile Include="Assembly.cs" />
+    <Compile Include="AutoGearbox.cs" />
     <Compile Include="BoxVan.cs" />
     <Compile Include="Brake.cs" />
+    <Compile Include="Camshaft.cs" />
     <Compile Include="CarBody.cs" />
     <Compile Include="CarChassis.cs" />
     <Compile Include="CarGlassware.cs" />
     <Compile Include="City.cs" />
+    <Compile Include="ClockSetup.cs" />
     <Compile Include="Coupe.cs" />
+    <Compile Include="DaySetupState.cs" />
     <Compile Include="Documentation.cs" />
     <Compile Include="ElectricWindow.cs" />
     <Compile Include="EngineDiagnoseTool.cs" />
@@ -65,28 +70,43 @@
     <Compile Include="IDiagnosticTool.cs" />
     <Compile Include="IEmailHandler.cs" />
     <Compile Include="IEngine.cs" />
+    <Compile Include="IEngineVisitor.cs" />
+    <Compile Include="IGearboxStrategy.cs" />
     <Compile Include="IGlassware.cs" />
     <Compile Include="Ignition.cs" />
+    <Compile Include="IClockSetupState.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="IVehicle.cs" />
+    <Compile Include="IVisitable.cs" />
     <Compile Include="ManagerEmailHandler.cs" />
+    <Compile Include="MonthSetupState.cs" />
     <Compile Include="Part.cs" />
     <Compile Include="Pickup.cs" />
+    <Compile Include="Piston.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Radio.cs" />
     <Compile Include="Registration.cs" />
     <Compile Include="SalesEmailHandler.cs" />
     <Compile Include="Saloon.cs" />
+    <Compile Include="SaloonBooklet.cs" />
     <Compile Include="ServiceEmailHandler.cs" />
+    <Compile Include="ServiceHistoryBooklet.cs" />
     <Compile Include="SpamEmailHandler.cs" />
+    <Compile Include="SparkPlug.cs" />
+    <Compile Include="SpeedMonitor.cs" />
+    <Compile Include="Speedometer.cs" />
+    <Compile Include="SpeedometerSubject.cs" />
     <Compile Include="Sport.cs" />
+    <Compile Include="SportGearboxStrategy.cs" />
     <Compile Include="StandardEngine.cs" />
+    <Compile Include="StandardGearboxStrategy.cs" />
     <Compile Include="SuperGreenEngine.cs" />
     <Compile Include="TurboEngine.cs" />
     <Compile Include="VanBody.cs" />
     <Compile Include="VanChassis.cs" />
     <Compile Include="VanGlassware.cs" />
     <Compile Include="VehicleColor.cs" />
+    <Compile Include="YearSetupState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FoobarMotor.cd" />
